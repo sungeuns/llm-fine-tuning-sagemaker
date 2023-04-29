@@ -1,0 +1,1 @@
+python run_rlhf_train.py --dataset_path /home/ec2-user/SageMaker/efs/aiml/dolly/debug-imdb --model_name /home/ec2-user/SageMaker/efs/aiml/dolly/dolly-v2-7b
