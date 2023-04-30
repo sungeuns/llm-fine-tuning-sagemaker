@@ -1,1 +1,1 @@
-python run_rlhf_train.py --dataset_path /home/ec2-user/SageMaker/efs/aiml/dolly/debug-imdb --model_name /home/ec2-user/SageMaker/efs/aiml/dolly/dolly-v2-7b
+python run_rlhf_train.py --dataset_path /home/ec2-user/SageMaker/llm-fine-tuning-sagemaker/imdb-data --model_name /home/ec2-user/SageMaker/llm-fine-tuning-sagemaker/pretrained-models/models--databricks--dolly-v2-7b/snapshots/97611f20f95e1d8c1e914b85da55cc3937c31192
