@@ -3,7 +3,8 @@
 
 ### 개요
 - 해당 실습은 `dolly-v2-7b`를 기반으로 작성되었습니다.
-- 사용하는 라이브러리들은 빠르게 바뀌고 있기 때문에 버전에 따라 동작이 바뀔 수 있습니다.
+- 사용하는 라이브러리들은 빠르게 개발이 되고 있기 때문에 버전에 따라 동작이 바뀔 수 있습니다.
+
 
 ### 실습
 - `01-local-mode-dolly-inference.ipynb`
@@ -14,6 +15,8 @@
   - PEFT를 활용하여 SageMaker 상에서 LLM을 Supervised fine tuning 합니다.
 - `04-fine-tuning-rlhf.ipynb`
   - TRL, PEFT 등을 활용하여 SageMaker 상에서 LLM을 RLHF 기반 학습을 진행합니다.
+- `05-stack-dolly.ipynb`
+  - [StackLLaMA](https://huggingface.co/blog/stackllama)를 SageMaker에서 학습하는 예시로, SFT에 대한 샘플 코드만 포함되어 있어서 이를 참고하여 추가적인 학습을 직접 진행해 보도록 합니다.
   
 
 ### SageMaker notebook lifecycle configuration
